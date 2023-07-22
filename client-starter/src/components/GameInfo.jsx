@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import ReactTooltip from 'react-tooltip'
 
 import CustomButton from './CustomButton';
 import { useGlobalContext } from '../context';
@@ -25,7 +26,7 @@ const GameInfo = () => {
 
   return (
     <>
-      <div className={`${styles.gameInfoIconBox}`}>
+      <div data-for={`info`} data-tip=" Game Rules" className={`${styles.gameInfoIconBox}`}>
         <div
           className={`${styles.gameInfoIcon} ${styles.flexCenter}`}
           onClick={() => setToggleSidebar(true)}
@@ -65,6 +66,7 @@ const GameInfo = () => {
           <CustomButton title="Exit Battle" handleClick={() => handleBattleExit()} />
         </div>
       </div>
+
     </>
   );
 };

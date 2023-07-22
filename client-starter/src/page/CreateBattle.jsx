@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
 import styles from '../styles';
 import { useGlobalContext } from '../context';
 import { CustomButton, CustomInput, GameLoad, PageHOC } from '../components';
@@ -63,4 +62,4 @@ export default PageHOC(
 //Handle Value Change is not a function This erro need to be resolved
 // Its resolved the setBattle Name value wasn't provided in the index.jsx thats the
 
-// 2 hours 10 minutes. Next is join battle
+// 2 hours 10 minutes. Next is join battle 

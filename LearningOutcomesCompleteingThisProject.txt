@@ -1,0 +1,84 @@
+1).For the animations 
+//https://codepen.io/meodai/pen/OWzBb\
+
+2).Higher order components =  used to render multiple or dynamic paging within the same system.
+
+3).React Context Hook = like GlobalContext= createcontext();. Values like provider. GlobalContext.Provider value= ({})
+
+4).connect and web3Modal = web3Modal.connect(); pass the connection through ethers.provider.Web3Provider(connection)
+
+5).Fragements <> </> = We use it in order to return multple adjacent return element. 
+
+<> 
+<div>......</div>
+<div>......</div>
+</>
+
+6).EventListeners used to listen the blockchain event on our front end. like new player registered we can checkit in our console or frontend by using args
+
+7).Properties called inside the index.css need to import in main.jsx.
+
+8).Overflow: hidden will make unable to scroll the page and won't show the data present below.
+
+9).Foreach , filter and map 
+
+10). The forEach method is used to iterate through each element of an array and perform an action for each element. It doesn't create a new array, and its main 
+purpose is to execute a function for each element without altering the original array.
+
+11).The filter method creates a new array containing all elements of the original array that pass a certain condition defined by the provided callback function. 
+It doesn't modify the original array but returns a new one with the filtered elements.
+
+Example:
+
+const numbers = [1, 2, 3, 4, 5];
+
+// Example: Filtering even numbers
+const evenNumbers = numbers.filter((number) => number % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4]
+
+12).The map method creates a new array by transforming each element of the original array using a callback function. It doesn't modify the original array but 
+returns a new one with the transformed elements.
+
+Example:
+
+const numbers = [1, 2, 3, 4, 5];
+
+// Example: Logging each element in the array
+numbers.forEach((number) => {
+  console.log(number);
+});
+
+
+13).React Tooltip is used 2 properties data-for and data-tip. data-for used to identify which div and data-tip used to show the particular data
+
+Explaination:
+            In React, a tooltip is a small pop-up box that appears when you hover over an element. It typically provides additional information or context about 
+that 
+element. To implement tooltips in React, you can use various libraries or create a custom tooltip component.
+
+data-for: This attribute is used to specify the unique identifier for the tooltip. It connects the tooltip content with the element you want the tooltip to be 
+associated with.
+data-tip: This attribute holds the content that will be displayed in the tooltip.
+
+14). <Tilt> ..... </Tilt> is actualy used to tilt the card on hover.
+
+15). localStorage.getItem is a method provided by the web browser's localStorage object, which is part of the Web Storage API. It allows you to access data stored in
+ the browser's local storage.
+The localStorage.getItem(key) method retrieves the value associated with the specified key from the localStorage.
+
+16). The .slice() method is a built-in JavaScript method that allows you to extract a portion of an array or a string without modifying the original array or string.
+ It does not mutate the original array or string but rather returns a new array or string containing the extracted elements.
+
+string.slice(startIndex, endIndex);  // start index is inclusive and endIndex is exclusive
+const fruits = ['apple', 'banana', 'orange', 'grape', 'mango'];
+const slicedFruits = fruits.slice(0, -1); // -1 is used to cut the last element
+console.log(slicedFruits); //['apple', 'banana', 'orange', 'grape']
+
+
+
+
+
+
+
+
+

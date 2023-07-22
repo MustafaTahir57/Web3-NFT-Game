@@ -67,7 +67,26 @@
 
 body {
   overflow: hidden; /* Hide scrollbars */
+  overflow-y: scroll ;
+  scrollbar-width: thin;
 }
+
+/* Track */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the scrollbar handle */
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Set the color of the scrollbar handle on hover */
+}
+
 
 /* Battle Animation Effect */
 .container {
